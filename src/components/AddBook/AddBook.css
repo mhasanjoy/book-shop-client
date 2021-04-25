@@ -1,0 +1,15 @@
+.add-book{
+    margin-left: 20px;
+}
+.label-highlight{
+    font-weight: 700;
+}
+.input-highlight{
+    width: 400px;
+}
+.save-btn{
+    background-color: rebeccapurple;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 5px;
+}

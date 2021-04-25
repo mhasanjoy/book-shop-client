@@ -1,0 +1,16 @@
+.buy-btn {
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    margin-left: 100px;
+}
+
+.card-footer {
+    border: none;
+}
+
+img {
+    height: 350px;
+}

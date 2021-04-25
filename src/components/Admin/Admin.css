@@ -1,0 +1,13 @@
+.Admin {
+    margin: 0;
+    padding: 0;
+}
+
+.admin-nav {
+    background-color: rebeccapurple;
+    height: 100vh;
+}
+
+.color-highlight {
+    color: white;
+}
