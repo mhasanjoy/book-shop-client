@@ -5,7 +5,7 @@ const ManageBooks = () => {
     const [books, setBooks] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/allBooks')
+        fetch('https://shrouded-caverns-55821.herokuapp.com/allBooks')
             .then(response => response.json())
             .then(data => {
                 setBooks(data);
@@ -13,7 +13,7 @@ const ManageBooks = () => {
     }, []);
 
     const handleDelete = id => {
-        fetch('http://localhost:5000/delete/' + id, {
+        fetch('https://shrouded-caverns-55821.herokuapp.com/delete/' + id, {
             method: 'DELETE'
         })
             .then(response => response.json())

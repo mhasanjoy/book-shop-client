@@ -10,7 +10,7 @@ const Checkout = () => {
     const [book, setBook] = useState({});
 
     useEffect(() => {
-        fetch('http://localhost:5000/book/' + id)
+        fetch('https://shrouded-caverns-55821.herokuapp.com/book/' + id)
             .then(response => response.json())
             .then(data => setBook(data));
     }, [id]);
@@ -18,7 +18,7 @@ const Checkout = () => {
     const handleCheckout = () => {
         const order = { ...book, ...loggedInUser, quantity: 1, total: book.price };
 
-        fetch('http://localhost:5000/addOrder', {
+        fetch('https://shrouded-caverns-55821.herokuapp.com/addOrder', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json; charset=UTF-8',

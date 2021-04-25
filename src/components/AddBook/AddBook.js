@@ -41,7 +41,7 @@ const AddBook = () => {
 
     const handleSubmit = event => {
         const eventData = {...inputData, imageURL};
-        fetch('http://localhost:5000/addBook', {
+        fetch('https://shrouded-caverns-55821.herokuapp.com/addBook', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json; charset=UTF-8',

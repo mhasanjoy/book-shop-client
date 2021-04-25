@@ -6,7 +6,7 @@ const Home = () => {
     const [books, setBooks] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/allBooks')
+        fetch('https://shrouded-caverns-55821.herokuapp.com/allBooks')
             .then(response => response.json())
             .then(data => {
                 setBooks(data);
