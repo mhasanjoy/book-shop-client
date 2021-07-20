@@ -1,21 +1,21 @@
 .title {
-    color: rebeccapurple;
-    font-weight: 700;
+  color: rebeccapurple;
+  font-weight: 700;
 }
 
 .nav-link {
-    font-size: 18px;
-    font-weight: 600;
-    margin: 0px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px 15px;
 }
 
 .login {
-    background-color: rebeccapurple;
-    padding: 5px 10px;
-    border-radius: 5px;
+  background-color: rebeccapurple;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
-.user-image {
-    height: 30%;
-    margin-top: 8px;
+.user-image img {
+  height: 35px;
+  margin-top: 8px;
 }

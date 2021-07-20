@@ -14,9 +14,9 @@ const Home = () => {
     }, []);
 
     return (
-        <div>
+        <>
             <Header></Header>
-
+            
             <div className="container mt-5 pt-5">
                 <div className='row g-5 mb-5'>
                     {
@@ -24,7 +24,7 @@ const Home = () => {
                     }
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

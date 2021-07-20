@@ -1,13 +1,10 @@
 import { createContext, useState } from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Admin from "./components/Admin/Admin";
 import Checkout from "./components/Checkout/Checkout";
-import Home from './components/Home/Home';
+import Home from "./components/Home/Home";
 import Login from "./components/Login/Login";
+import NoMatch from "./components/NoMatch/NoMatch";
 import Orders from "./components/Orders/Orders";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 
@@ -37,6 +34,9 @@ function App() {
           </Route>
           <Route exact path="/">
             <Home></Home>
+          </Route>
+          <Route path="*">
+            <NoMatch></NoMatch>
           </Route>
         </Switch>
       </Router>

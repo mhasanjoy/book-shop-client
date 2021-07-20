@@ -7,7 +7,7 @@ const Card = (props) => {
 
     return (
         <>
-            <div className="col-md-4 mb-5">
+            <div className="col-xl-4 col-md-6 mb-5">
                 <div className="card h-100">
                     <div className="px-4 py-4 bg-secondary">
                         <img src={imageURL} className="card-img-top" alt="" />
